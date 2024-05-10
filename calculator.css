@@ -1,0 +1,39 @@
+.main-div{
+    /* width: 50 vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.input{
+    margin-bottom: 10px;
+}
+.input input{
+    text-align: end;
+    width: 96%;
+    height: 40px;
+    border: 1px solid gray;
+    font-weight: 700;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+}
+.button{
+    padding: 10px;
+    text-align: center;
+    background-color: #E8EAED;
+    border-width: 0.8px;
+    cursor: pointer;
+}
+
+
+
